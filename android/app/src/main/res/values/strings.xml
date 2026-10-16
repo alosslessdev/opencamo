@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">opencamo</string>
+    <string name="camera_label">Camera</string>
+    <string name="resolution_label">Resolution</string>
+    <string name="fps_label">Frame rate</string>
+    <string name="start">Start server</string>
+    <string name="stop">Stop server</string>
+    <string name="status_stopped">Server stopped.</string>
+    <string name="camera_permission_denied">Camera permission denied. Grant it in system settings to stream.</string>
+    <string name="no_cameras">No cameras available on this device.</string>
+</resources>

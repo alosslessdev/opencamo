@@ -1,0 +1,22 @@
+[package]
+name = "opencamo-desktop"
+version = "0.1.0"
+edition = "2021"
+description = "Linux desktop client for opencamo: phone camera as a webcam over the LAN"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+anyhow = "1"
+crossbeam-channel = "0.5"
+eframe = "0.27"
+egui = "0.27"
+image = "0.25"
+parking_lot = "0.12"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2", features = ["json"] }
+v4l = "0.14"
+
+[profile.release]
+lto = "thin"
+strip = true

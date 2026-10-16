@@ -1,0 +1,17 @@
+# Rust
+desktop/target/
+
+# Android/Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/captures/
+android/externalNativeBuild/
+android/.cxx/
+
+# OS noise
+.DS_Store
+Thumbs.db
